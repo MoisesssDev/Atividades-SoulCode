@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido online</title>
+</head>
+<body>
+  <main>
+    <h1>Faça seu pedido</h1>
+
+    <form>
+      <div>
+          <label for="cNome">Nome:</label>
+          <input type="text" id="cNome" name="nome" placeholder="Seu nome aqui" required/>
+      </div>
+
+      <div>
+          <label for="cEndereco">Endereço: </label>
+          <input type="text" id="cEndereco" name="endereco" required/> 
+      </div>
+
+      <div>
+        <label for="cTelefone">Telefone: </label>
+        <input type="tel" id="cTelefone" name="telefone" required/>
+      </div>
+
+      <div>
+          <label for="tipo">Tipo de comida: </label>
+          <select id="tipo" name="tipo-da-comida" required>
+              <option disabled selected value="">Selecione uma opção</option>
+              <option>Sobremesa</option>
+              <option>Almoço</option>
+          </select>
+      </div>
+
+      <div>
+          <label for="observacoes">Observações: </label> <br> 
+          <textarea id="observacoes" name="observacoes" required></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </main> 
+</body>
+</html>
