@@ -7,13 +7,13 @@ Este projeto demonstra o uso de HTML semântico junto com o framework Bootstrap 
 
 O HTML foi organizado utilizando tags semânticas para melhorar a acessibilidade e a estrutura do documento. Abaixo estão as principais tags utilizadas:
 
-- <header>: Representa o cabeçalho da página, contendo o título principal e a navegação.
-- <nav>: Contém os links de navegação.
-- <main>: Envolve o conteúdo principal da página.
-- <section>: Utilizada para agrupar conteúdos tematicamente relacionados.
-- <article>: Utilizada para conteúdos independentes que fazem sentido por si próprios, como posts de blog ou descrições de serviços.
-- <aside>: Contém informações adicionais ou complementares, como links úteis e informações de contato.
-- <footer>: Representa o rodapé da página.
+- `<header>`: Representa o cabeçalho da página, contendo o título principal e a navegação.
+- `<nav>`: Contém os links de navegação.
+- `<main>`: Envolve o conteúdo principal da página.
+- `<section>`: Utilizada para agrupar conteúdos tematicamente relacionados.
+- `<article>`: Utilizada para conteúdos independentes que fazem sentido por si próprios, como posts de blog ou descrições de serviços.
+- `<aside>`: Contém informações adicionais ou complementares, como links úteis e informações de contato.
+- `<footer>`: Representa o rodapé da página.
 
 **Utilização do Bootstrap**
 
