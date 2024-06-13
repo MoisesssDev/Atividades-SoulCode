@@ -27,4 +27,5 @@ O Bootstrap foi utilizado para estilizar e organizar o layout do site. Abaixo es
 - `p-4, mb-4`: Utilizadas para definir padding (espaçamento interno) e margin-bottom (espaçamento inferior).
 
 **Captura de tela**
+![image](https://github.com/MoisesssDev/Atividades-SoulCode-HTML/assets/92608807/d9cf91bc-aaff-4890-8969-eed31d354c04)
 
