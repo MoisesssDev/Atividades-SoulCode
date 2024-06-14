@@ -21,11 +21,47 @@ body {
   margin: 0 auto;
 }
 
+header {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  background-color: var(--white-2);
+}
+
+header nav .group-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+header nav .group-nav .back-to-home {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+header nav .group-nav .back-to-home a {
+  color: var(--red-300);
+  text-decoration: none;
+}
+
+header nav .group-nav .back-to-home a:hover {
+  text-decoration: underline;
+}
+
+header nav .group-nav .back-to-home span {
+  color: var(--red-300);
+  font-size: 18px;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 5rem;
+}
+
+.nav-2 {
+  background-color: var(--white-2);
 }
 
 header nav ul {
@@ -147,6 +183,7 @@ footer {
   background-color: var(--gray-700);
   color: var(--white);
   padding: 2rem 0;
+  height: 200px;
 }
 
 main .cardapio {
@@ -243,4 +280,27 @@ main .tabela-nutricional table td {
   padding: 10px 15px;
   color: var(--gray-500);
   font-weight: 600;
+}
+
+.sobre-nos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.sobre-nos .card-sobre-nos {
+  width: 45%;
+  background-color: var(--white-2);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+}
+
+.sobre-nos .card-sobre-nos p {
+  color: var(--gray-500);
+}
+
+.sobre-nos .card-sobre-nos h1 {
+  margin-top: 0;
+  font-size: 1.8rem;
 }
