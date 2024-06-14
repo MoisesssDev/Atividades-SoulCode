@@ -1,0 +1,177 @@
+:root {
+  --gray-700: rgb(35, 31, 32);
+  --gray-500: rgb(79, 74, 75);
+  
+  --white: #F8F2F4;
+  --white-2: #FFFFFF;
+
+  --red-300: #C8102E;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  font-family: "Nunito Sans", sans-serif;
+  color: var(--gray-700);
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--red-300);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  transition: all 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: var(--red-300);
+  color: var(--white);
+  padding: 12px 10px;
+  border-radius: 25px;
+}
+
+main .banner {
+  background: url("./assets/banner-principal.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .banner .card-banner {
+  position: absolute;
+  top: 130px;
+  background-color: var(--white-2);
+  min-height: 320px;
+  width: 850px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+main .banner .card-banner .img-banner {
+  max-width: 300px;
+  padding-right: 3rem;
+}
+
+main .banner .card-banner .content-banner {
+  padding-left: 5rem;
+  max-width: 420px;
+}
+
+main .banner .card-banner h1 {
+  max-width: 320px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+main .banner .card-banner p {
+  color: var(--gray-500);
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+main .banner .card-banner a {
+  background-color: var(--red-300);
+  text-decoration: none;
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 700;
+  /* margin-bottom: 2rem; */
+  transition: all 0.3s;
+}
+
+main .banner .card-banner a:hover {
+  color: var(--red-300);
+  border: solid 1px var(--red-300);
+  background-color: transparent;
+}
+
+main .informacoes {
+  margin-top: 11.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .informacoes h2 {
+  margin-top: 0.85rem;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+main .informacoes p {
+  color: var(--gray-500);
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+main .informacoes .img-pizza-grande {
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 5rem;
+  text-align: center;
+  background-color: var(--gray-700);
+  color: var(--white);
+  padding: 2rem 0;
+}
+
+main .cardapio {
+  display: flex;
+  justify-content: center;
+}
+
+main .cardapio .card-pizza {
+  background-color: var(--white-2);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  margin-right: 1.5rem;
+}
+
+main .cardapio .card-pizza h2 {
+  text-align: center;
+  letter-spacing: 1.1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main .cardapio .card-pizza p {
+  color: var(--gray-500);
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
