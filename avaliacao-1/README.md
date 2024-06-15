@@ -2,10 +2,6 @@
 
 O objetivo desta atividade é desenvolver um site HTML completo, aplicando todos os conceitos aprendidos durante a semana. O site deve seguir uma temática de sua preferência e incluir as seguintes páginas:
 
-**Estrutura do HTML**
-
-O HTML foi organizado utilizando tags semânticas para melhorar a acessibilidade e a estrutura do documento. Abaixo estão as principais tags utilizadas:
-
 - Página inicial
 - Página FAQ (Perguntas Frequentes)
 - Página de serviços/produtos/preços
